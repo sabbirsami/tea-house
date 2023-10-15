@@ -3,8 +3,8 @@ import logo from "../../assets/navLogo.png";
 
 const Navbar = () => {
     return (
-        <div className="py-5 ">
-            {/* bg-gradient-to-r from-[#ff0000] to-[#ff8938] */}
+        // <div className="bg-gradient-to-r from-[#ff8938]/10 to-[#ff0000]/10 ">
+        <div className="container mx-auto py-5 mb-6">
             <div className="flex items-center justify-between">
                 <img src={logo} alt="" />
                 <nav>
@@ -36,6 +36,7 @@ const Navbar = () => {
                 </nav>
             </div>
         </div>
+        // </div>
     );
 };
 
