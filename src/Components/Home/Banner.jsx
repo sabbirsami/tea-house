@@ -4,7 +4,7 @@ import { GoStarFill } from "react-icons/go";
 const Banner = () => {
     return (
         <div className="container mx-auto py-32">
-            <div className="grid grid-cols-2 items-end justify-between">
+            <div className="grid grid-cols-2 items-end justify-between py-10">
                 <div className="">
                     <h2 className="text-8xl font-semibold ">
                         It&#39;s good <br /> tea time at The Tea House

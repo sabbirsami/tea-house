@@ -32,6 +32,14 @@ const Navbar = () => {
                                 About Us
                             </NavLink>
                         </li>
+                        <li>
+                            <NavLink
+                                className={"p-4 text-lg"}
+                                to={"/dashboard"}
+                            >
+                                Dashboard
+                            </NavLink>
+                        </li>
                     </ul>
                 </nav>
             </div>
